@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&display=swap');
+
+* {
+  font-family: Fira Sans;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #1d2021;
+  justify-content: center;
+}
+
+h1 {
+  color: #fe8019;
+  text-align: center;
+  margin-top: 50px;
+}
+
+p {
+  color: #ebdbb2;
+  text-align: center;
+  font-size: 1.1em;
+}
+
+br {
+  display: block;
+  margin-top: -5px;
+}
+
+.box .pfp {
+  box-shadow: 0px 0px 20px #fe801960;
+  display: block;
+  margin-left: 10px;
+  margin-right: 1000px;
+  margin-top: -170px;
+  width: 25vh;
+  height: 25vh;
+  border-radius: 50%;
+  border: 5px solid #fe8019;
+}
+
+@media screen and (max-width: 768px) {
+  .box .pfp {
+    display: block;
+    margin-left: auto;
+    margin-right: 1000px;
+    width: 15vh;
+    height: 15vh;
+    border-radius: 50%;
+    border: 5px solid;
+  }
+
+  .box .custom-icon {
+    margin-top: 60px;
+    margin-left: 200px;
+    margin-right: -190px;
+    font-size: 30px;
+    color:  #ebdbb2;
+    cursor: pointer;
+  }
+  
+  .box .custom-icon:hover {
+    color: #d5c4a1;
+    transition: 0.3s;
+  }
+  
+}
+
+.box {
+  border-radius: 1rem;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  width: 700px;
+  height: 300px;
+  background-color: #282828;
+  box-shadow: 0px 0px 20px #fe801960;
+  text-align: left;
+}
+
+h1 {
+  text-shadow: 0px 0px 23px #fe801931;
+  display: block;
+  color: #fe8019;
+  text-align: center;
+  padding-top: 20px;
+}
+.box h2 {
+  color: #fe8019;
+  text-align: end;
+  padding-right: 80px;
+}
+
+.box p {
+  color: #fe8019;
+  font-size: 1.2em;
+  padding-left: 202px;
+  text-align: left;
+}
+
+.box .custom-icon {
+  margin-left: 200px;
+  margin-right: -190px;
+  font-size: 30px;
+  color:  #ebdbb2;
+  cursor: pointer;
+}
+
+.box .custom-icon:hover {
+  color: #d5c4a1;
+  transition: 0.3s;
+}

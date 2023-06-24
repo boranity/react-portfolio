@@ -1,0 +1,43 @@
+.nav  {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 157px;
+  margin-top: 20px;
+}
+
+.nav a {
+  display: inline-block;
+  color: #fe8019;
+  margin-right: 20px;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.nav:hover a {
+    transition: 0.5s;
+    color: #d5c4a1
+  }
+  
+  .nav a:hover {
+    transition: 0.5s;
+    color: #fe8019
+  }
+  
+
+@media screen and (max-width: 768px) {
+    .nav  {
+        display: flex;
+        align-items: flex-end;
+        margin-left: 0;
+        margin-top: 20px;
+        margin-right: 30px;
+      }
+      
+      .nav a {
+        display: inline-block;
+        color: #fe8019;
+        margin-right: 20px;
+        text-decoration: none;
+        transition: 0.5s;
+      }
+}
