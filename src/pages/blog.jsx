@@ -7,7 +7,7 @@ function About() {
   return (
     <>
       <Navbars />
-        <h1>Example</h1>
+        <h1>Example Page doesnt have any blog node modules</h1>
 
     </>
   );
